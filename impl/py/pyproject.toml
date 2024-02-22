@@ -1,0 +1,23 @@
+[project]
+name = "pika_id"
+version = "0.0.1"
+description = "The pragmatic ID system"
+classifiers = [
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+authors = [
+  { name = "Matthew Holmes", email = "matt@braum.ai" }
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
